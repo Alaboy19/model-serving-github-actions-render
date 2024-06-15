@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-model-serving-github-actions-render"
+version = "0.1.0"
+description = ""
+authors = ["Nurbolat <nurbolat.bazarbek@nu.edu.kz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.0"
+pytest = "^8.2.2"
+ruff = "^0.4.9"
+black = "^24.4.2"
+pre-commit = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

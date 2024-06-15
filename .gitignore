@@ -1,0 +1,46 @@
+# binary files
+__pycache__
+*.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# temp files
+models/
+notebooks/*
+tmp/
+build/
+*.bundle
+*.egg-info/
+*.pyc
+*.whl
+*.tar.gz
+*.pkl
+__MACOSX/
+*.zip
+
+# venv
+.venv/
+venv/
+
+# logs
+*.log
+
+# datasets
+*.csv
+*.csv.zip
+*.npy
+
+# .ssh
+.ssh/
+
+# OS
+*.icloud
+
+# mlflow
+mlruns/
+artifacts/
+
+*.sh 
+docker-compose.yaml

@@ -20,7 +20,8 @@ This is the fast pipeline to ship the ml model to production with automated gith
 
 ## Steps to reprocude the code ##
 
-1. Either activate a venv and install dependencies with '''pip install -r requirments.txt ''' OR you can install poetry and run '''poetry install'''
+1. Either activate a venv and install dependencies with ``` pip install -q -r requriements.txt
+``` OR you can install poetry and run ```poetry install```
 2. Generate token for access to your dockerhub account 
 3. On github actions serctets → add repo secrets for DOCKERHUB_USER, DOCKERHUB_TOKEN, RENDEP_DEPLOY_HOOK.
 

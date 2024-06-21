@@ -2,7 +2,7 @@
 
 model deployment on free registry withing dockerhub  
 
-##Steps to reproduce the workflow##
+## Steps to reproduce the workflow ##
 
 1. Build any simple model (in my case it is a just prediction of usage of specific password per million user, password[”string”] → number[”float”])
 2. Build web-service based on FastAPI and dependency injection for model binary 
@@ -15,7 +15,7 @@ model deployment on free registry withing dockerhub
 9. When deployed, [render.com](http://render.com) provides endpoint of service in this format, [https://{image_name_on_dockerregistry}.onrender.com](https://fastapi-webservice-retrain-01.onrender.com/)
 10. Go to this service with route /docs and test manually your service for /predict and /health routes. 
 
-##Steps to reprocude the code##
+## Steps to reprocude the code ##
 
 1. Either activate a venv and install dependencies with pip install -r requirments.txt OR you can install poetry and run poetry install
 2. Generate token for access to your dockerhub account 

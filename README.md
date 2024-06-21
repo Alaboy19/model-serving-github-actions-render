@@ -24,6 +24,7 @@ This is the fast pipeline to ship the ml model to production with automated gith
 ``` OR you can install poetry and run ```poetry install```
 2. Generate token for access to your dockerhub account 
 3. On github actions serctets → add repo secrets for DOCKERHUB_USER, DOCKERHUB_TOKEN, RENDEP_DEPLOY_HOOK.
+4. Follow along the .github.workflows.ci-cd.yml file
 
 
 

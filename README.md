@@ -1,6 +1,6 @@
 # Docs for deployment
 
-This is the fast pipeline to ship the ml model to production with CI-CD and on free hosting on render.com. 
+This is the fast pipeline to ship the ml model to production with automated github actions workflow and on free hosting on render.com. 
 
 ## Flowchart of system ## 
 ![frame](https://github.com/Alaboy19/model-serving-github-actions-render/assets/47283347/e47fea91-beb3-491e-828c-42c66fe13edc)

@@ -1,6 +1,9 @@
 # Docs for deployment
 
-model deployment on free registry withing dockerhub  
+This is the fast pipeline to ship the ml model to production with CI-CD and on free hosting on render.com. 
+
+## Flowchart of system ## 
+![frame](https://github.com/Alaboy19/model-serving-github-actions-render/assets/47283347/e47fea91-beb3-491e-828c-42c66fe13edc)
 
 ## Steps to reproduce the workflow ##
 
@@ -21,7 +24,6 @@ model deployment on free registry withing dockerhub
 2. Generate token for access to your dockerhub account 
 3. On github actions serctets → add repo secrets for DOCKERHUB_USER, DOCKERHUB_TOKEN, RENDEP_DEPLOY_HOOK.
 
-## Flowchart of system ## 
-![frame](https://github.com/Alaboy19/model-serving-github-actions-render/assets/47283347/e47fea91-beb3-491e-828c-42c66fe13edc)
+
 
 

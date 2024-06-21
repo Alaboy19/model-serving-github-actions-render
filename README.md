@@ -22,5 +22,6 @@ model deployment on free registry withing dockerhub
 3. On github actions serctets → add repo secrets for DOCKERHUB_USER, DOCKERHUB_TOKEN, RENDEP_DEPLOY_HOOK.
 
 ## Flowchart of system ## 
-![Alt text](kc_mlops-Frame1.jpg)
+![frame](https://github.com/Alaboy19/model-serving-github-actions-render/assets/47283347/e47fea91-beb3-491e-828c-42c66fe13edc)
+
 
